@@ -1,6 +1,17 @@
-import '../styles/globals.css'
+"use client"
+import { appWithTranslation } from 'next-i18next'
+import { CacheProvider } from '@chakra-ui/next-js';
+import { ChakraProvider } from '@chakra-ui/react';
 import type { AppProps } from 'next/app'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }: AppProps) {
+  return (
+    <CacheProvider>
+      <ChakraProvider>
+        <Component {...pageProps} />
+      </ChakraProvider>
+    </CacheProvider>
+  )
 }
+
+export default appWithTranslation(App)

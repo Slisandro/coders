@@ -1,12 +1,12 @@
 {
-  "theme_color": "#3b82f6",
-  "background_color": "#f8fafc",
+  "theme_color": "#fff",
+  "background_color": "#f69435",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "next-pwa-boilerplate",
-  "short_name": "next-pwa-boilerplate",
-  "description": "A PWA boilerplate with Next Js TypeScript",
+  "name": "<coders />",
+  "short_name": "Coders",
+  "description": "Resources for developers",
   "icons": [
     {
       "src": "/icon-192x192.png",

@@ -1,0 +1,9 @@
+{
+    "sidebar": {
+        "home": "Inicio",
+        "jobs": "Empleos",
+        "project": "Proyectos",
+        "course": "Cursos",
+        "community": "Comunidad"
+    }
+}

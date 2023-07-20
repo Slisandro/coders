@@ -1,0 +1,9 @@
+{
+    "sidebar": {
+        "home": "Home",
+        "jobs": "Jobs",
+        "project": "Project",
+        "course": "Course",
+        "community": "Community"
+    }
+}
